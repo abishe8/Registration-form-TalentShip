@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Formstyle.css">
+    <script src="forms.js"></script>
+</head>
+<body>
+    
+<form id="register">
+    
+    <h1>Registration</h1>
+    <label>Name</label>
+    <input type="textbox" placeholder="Enter your name">
+    <label>Date of Birth</label>
+    <input type="date">
+    <label>college mail id</label>
+    <input type="email" placeholder="example@svce.ac.in">
+    <div class="selectbox">
+    <select name="course" id="course">
+        <option selected disabled>Choose a course</option>
+        <option value="">artificial intelligence</option>
+        <option value="">CyberSecurity</option>
+        <option value="">Data Analytics</option>
+        <option value="">Web Development</option>
+    </select>
+    </div>
+    <br>
+    <button onclick="alertbox()">SUBMIT</button>
+</form>
+
+</body>
+</html>
